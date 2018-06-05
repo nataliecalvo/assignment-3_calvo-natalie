@@ -1,0 +1,26 @@
+h1 {
+	font-family: 'Dancing Script', cursive;
+	text-align: center;
+	font-size: 3rem;
+}
+
+.nav_ul_li a {
+  font-weight: bold;
+  font-size: 2rem;
+}
+
+.nav_ul_li a:link, .nav_ul_li a:active {
+	font-family: 'Dancing Script', cursive;
+}
+
+h1, h2, h3, h4, h5, h6, p, a:link, a:active  {
+	color: purple;
+}
+
+a:visited {
+  color: indigo;
+}
+
+a:hover {
+  color: pink;
+}
