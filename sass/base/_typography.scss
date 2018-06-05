@@ -18,13 +18,13 @@ h1 {
 }
 
 h1, h2, h3, h4, h5, h6, p, a:link, a:active  {
-	color: purple;
+	color: $tertiary-color;
 }
 
 a:visited {
-  color: indigo;
+  color: $eigth-color;
 }
 
 a:hover {
-  color: pink;
+  color: $fifth-color;
 }

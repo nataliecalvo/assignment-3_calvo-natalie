@@ -7,7 +7,7 @@ body {
 }
 
 .nav {
-	background-color: lavender;
+	background-color: $secondary-color;
 	text-align: center;
 	position: sticky;
 	top: 0;
@@ -35,7 +35,7 @@ body {
 }
 
 .nav_ul li a:hover {
-	border-bottom: 7px white dotted;
+	border-bottom: 7px $seventh-color dotted;
 }
 
 .main {
@@ -49,5 +49,22 @@ body {
 }
 
 .footer {
-  background-color: lavender;
+  background-color: $secondary-color;
+}
+
+@media (min-width: 675px) {
+  body {
+    background-color: $sixth-color;
+  }
+}
+@media (min-width: 999px) {
+  body {
+    background-color: $fourth-color;
+  }
+}
+
+@media (min-width: 1280px) {
+  body {
+    background-color: $fifth-color;
+  }
 }
