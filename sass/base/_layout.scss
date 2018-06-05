@@ -1,6 +1,5 @@
 body {
-  font-family: 'Nunito', sans-serif;
-  background-color: LightPink;
+  background-color: $primary-color;
 }
 
 .container {
@@ -31,9 +30,7 @@ body {
 
 .nav_ul_li a:link, .nav_ul_li a:active {
 	text-decoration: none;
-	font-weight: bold;
 	margin: 1% 4% 1% 4%;
-	font-size: 2rem;
 	justify-content: space-around;
 }
 

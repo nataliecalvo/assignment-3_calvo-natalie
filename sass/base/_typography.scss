@@ -1,5 +1,9 @@
+body {
+  font-family: $primary-font;
+}
+
 h1 {
-	font-family: 'Dancing Script', cursive;
+	font-family: $secondary-font;
 	text-align: center;
 	font-size: 3rem;
 }
@@ -10,7 +14,7 @@ h1 {
 }
 
 .nav_ul_li a:link, .nav_ul_li a:active {
-	font-family: 'Dancing Script', cursive;
+	font-family: $secondary-font;
 }
 
 h1, h2, h3, h4, h5, h6, p, a:link, a:active  {
